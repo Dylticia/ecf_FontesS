@@ -33,7 +33,7 @@ body::before {
     }
 }
 
-h1, h4, .fw-light{
+h1, h4, .fw-light, .p-2{
     
     font-family: 'Homemade Apple', cursive;
     letter-spacing: -1px;
@@ -62,7 +62,7 @@ h3 {
 #fondvert img {
 max-height: 150px;
 }
-/* LA PAGE INDEX */
+
 .card-body {
     border-color: black;
     background-image: url(./assets/img/diapo.png);
@@ -73,21 +73,13 @@ max-height: 150px;
     font-size: 1em; 
 }
 
-/*  PAGE singe */
-/* Les carroussels */
-
+/*  PAGE SINGES */
+/* Singes : Les carroussels */
 .carousel-inner img{
     width: 70%;
     border-radius: 20px;
-   
-       
+          
 }
-
-.accordion-body {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 
 #singe {
     background-color: rgb(119, 99, 75) ;
@@ -108,7 +100,7 @@ max-height: 150px;
    
 }
 
-/*  API */
+/*  PAGE API METEO */
 .box-container {
     width: 300px;
     height: 300px;
@@ -150,7 +142,15 @@ max-height: 150px;
     font-family: 'Caveat', cursive;
     font-size: 1.5em;
 }
+#meteo_fond{
+    background-image: url(./assets/img/landscape-5591270_1920.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(115, 122, 111);
 
+    }
 
 /* PAGE ASTUCES ET BONS PLANS */
 
@@ -162,6 +162,11 @@ max-height: 150px;
 .accordion-body {
     font-family: 'Caveat', cursive;
     font-size: 1.8em;
+}
+
+.accordion-body {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #astuce_jardin {
@@ -187,13 +192,4 @@ font-family: 'Caveat', cursive;
 font-size: 1.8em;
 }
 
-/* PAGE METEO */
-#meteo_fond{
-    background-image: url(./assets/img/landscape-5591270_1920.jpg);
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgb(115, 122, 111);
 
-    }
