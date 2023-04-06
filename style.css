@@ -1,0 +1,199 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Fasthand&family=Homemade+Apple&family=Macondo&family=Moon+Dance&family=Oswald:wght@500&family=Sacramento&display=swap');
+  
+
+    /* font-family: 'Fasthand', cursive;
+    font-family: 'Macondo', cursive;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+    /* font-family: 'Caveat', cursive; */
+
+
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* NAVBAR */
+.navbar, .dropdown-menu {
+    background-color: rgba(242, 227, 206) ;
+}
+
+.nav-link, .navbar-brand, .dropdown-menu {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+h1, h4, .fw-light{
+    
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: -1px;
+    display: block;
+    
+}
+
+h2, h3, h5  {
+        font-family: 'Caveat', cursive;
+}
+
+h2, .fw-light {
+   font-size: 2em; 
+}
+
+h3 {
+    font-size: 1.5em; 
+ }
+
+/* PAGE INDEX */
+#fondvert {
+    background-color: rgb(124, 143, 77) ;
+    max-height: 50%;
+    
+}
+#fondvert img {
+max-height: 150px;
+}
+/* LA PAGE INDEX */
+.card-body {
+    border-color: black;
+    background-image: url(./assets/img/diapo.png);
+}
+
+.titre_card{
+    font-family: 'Caveat', cursive;
+    font-size: 1em; 
+}
+
+/*  PAGE singe */
+/* Les carroussels */
+
+.carousel-inner img{
+    width: 70%;
+    border-radius: 20px;
+   
+       
+}
+
+.accordion-body {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#singe {
+    background-color: rgb(119, 99, 75) ;
+    height: 100vh;
+}
+
+/* PAGE ROCAMADOUR */
+#roca {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em; 
+
+}
+
+/* PAGE PADIRAC */
+
+#padirac_fond, #padirac_fond1 {
+    background-color: rgb(136, 182, 171) ;
+   
+}
+
+/*  API */
+.box-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#city {
+    background-color: rgba(41, 128, 185, 0.75);
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+}
+
+#temp {
+    background-color: rgba(43, 78, 101, 0.75);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+
+#humidity {
+    background-color: rgba(52, 152, 219, 0.75);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+
+#wind {
+    background-color: rgba(143, 146, 154, 0.75);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+
+
+/* PAGE ASTUCES ET BONS PLANS */
+
+.accordion-button {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2em;
+}
+
+.accordion-body {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8em;
+}
+
+#astuce_jardin {
+    background-image: url(./assets/img/jardin.jpg);
+    min-height: 95vh; 
+              
+}
+
+/* PAGE CONTACT */
+#contact_fond {
+    background-image: url(./assets/img/hd-wallpaper-6792528_1920.jpg);
+    min-height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(242, 227, 206);
+
+}
+
+.contact-details li{
+color:brown;
+font-family: 'Caveat', cursive;
+font-size: 1.8em;
+}
+
+/* PAGE METEO */
+#meteo_fond{
+    background-image: url(./assets/img/landscape-5591270_1920.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(115, 122, 111);
+
+    }

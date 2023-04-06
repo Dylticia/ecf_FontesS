@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/36363b56c6.js" crossorigin="anonymous"></script>
+    <title>Météo</title>
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar py-1 fixed-top border border-success">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Accueil</a>
+            <!-- création du bouton pour le menu hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- End création du bouton pour le menu hamburger -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Les visites
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="rocamadour.html">Rocamadour</a></li>
+                            <li><a class="dropdown-item" href="padirac.html">Gouffre de Padirac</a></li>
+                            <li><a class="dropdown-item" href="singe.html">La forêt des singes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="meteo.html" class="nav-link">Météo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="astuces.html" class="nav-link">Astuces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mentionsLegales.html" class="nav-link">Mentions légales</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Navbar -->
+    <!-- Titre de la page -->
+    <main id="meteo_fond">
+      <section class="container-fluid text-center">
+        <div class="py-3 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light text-light">Petit point Météo</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin Titre de la page -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 my-3">
+                <form>
+                    <div class="form-group">
+                        <label for="inputCity">Indiquez la ville</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Indiquez la ville">
+                      </div>
+                      <button type="submit" class="btn btn-info btn-block" >
+                        Rechercher
+                      </button>
+                </form>
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center my-3">
+                <div class="box-container">
+                    <div id="city" class="box"></div>
+                    <div id="temp" class="box"></div>
+                    <div id="humidity" class="box"></div>
+                    <div id="wind" class="box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

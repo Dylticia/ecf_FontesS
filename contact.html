@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/36363b56c6.js" crossorigin="anonymous"></script>
+
+  <title>Contact</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar py-1 fixed-top border border-success">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">Accueil</a>
+        <!-- création du bouton pour le menu hamburger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- End création du bouton pour le menu hamburger -->
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Les visites
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="rocamadour.html">Rocamadour</a></li>
+                        <li><a class="dropdown-item" href="padirac.html">Gouffre de Padirac</a></li>
+                        <li><a class="dropdown-item" href="singe.html">La forêt des singes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="meteo.html" class="nav-link">Météo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="astuces.html" class="nav-link">Astuces</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="mentionsLegales.html" class="nav-link">Mentions légales</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <!-- Fin Navbar -->
+  <!-- Titre de la page -->
+  <main id="contact_fond">
+    <section class="container-fluid text-center">
+      <div class="py-3 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light bg-light opacity-75 rounded-3">Contactez-moi</h1>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Titre de la page -->
+ 
+     <!-- ======= Contact Section ======= -->
+     <!-- <img src="./assets/img/hd-wallpaper-6792528_640.jpg" class="img-fluid rounded w-25 mx-auto d-block" alt="Un banc dans la nature"> -->
+      <div id="contact" class="paddsection">
+      <div class="container">
+        <div class="contact-block1">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="contact-contact">
+                <h2 class="mb-5 text-dark bg-body-tertiary text-sucess opacity-75 rounded">Envie de partager des bons plans ou des photos? <br> <br>
+                Je serai ravie d'échanger avec vous, par mail, 
+                  sur les souvenirs de ces lieux magnifiques. Nous pouvons également partager des photos. 
+                  <br> Cela permet de voyager devant l'écran en attendant le retour des vacances.</h2>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="row gy-3">
+                  <div class="col-lg-6 text-white">
+                      <div class="form-group contact-block1 opacity-75">
+                         <label for="name">Nom</label>
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 text-white">
+                    <div class="form-group opacity-75">
+                      <label for="email">email</label>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Votre email"
+                        required>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group opacity-75">
+                      <label for="message">Votre message</label>
+                      <textarea class="form-control" name="message" id="message" placeholder="Votre message" required></textarea>
+                    </div>
+                  </div>
+                   <div class="mt-5">
+                    <button class="btn btn-warning opacity-75" type="submit">Envoyez mon message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Contact Section -->
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

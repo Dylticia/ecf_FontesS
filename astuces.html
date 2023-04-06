@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/36363b56c6.js" crossorigin="anonymous"></script>
+
+  <title>Astuces</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar py-1 fixed-top border border-success">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">Accueil</a>
+        <!-- création du bouton pour le menu hamburger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- End création du bouton pour le menu hamburger -->
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Les visites
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="rocamadour.html">Rocamadour</a></li>
+                        <li><a class="dropdown-item" href="padirac.html">Gouffre de Padirac</a></li>
+                        <li><a class="dropdown-item" href="singe.html">La forêt des singes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="meteo.html" class="nav-link">Météo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="astuces.html" class="nav-link">Astuces</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="mentionsLegales.html" class="nav-link">Mentions légales</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Fin Navbar -->
+  <!-- Titre de la page -->
+  <main id="astuce_jardin">
+    <section class="container-fluid text-center">
+      <div class="py-3 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Astuces et bons plans</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Titre de la page -->
+      <!-- Accordéan d'astuces et bons plans -->
+      <section id="questions" class="p-4">
+        <div class="container">
+          <div class="accordion accordion-flush" id="questions_">
+            <!-- Item 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-primary-subtle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#question-one">
+                  Organiser votre séjour
+                </button>
+              </h2>
+              <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body">Bien sûr, dans l'idéal, nous sommes en vacances, on souhaiterait avoir la
+                  météo désirée
+                  (pour certains: plein soleil et chaleur, pour d'autre: une température clémente...).
+                  Mais nous ne choisissons pas la météo, alors il est fortement conseillé de prévoir à toutes
+                  éventualités
+                  et ce bien avant de charger les bagages dans la voiture. Vous réservez votre camping avant de vous
+                  rendre sur place...?
+                  Donc pour les visites, faites de même. <br> Avec Internet, et les sites d'offices du
+                  tourisme, les cartes des monuments, musées, zoo à visiter : vous pouvez facilement organiser votre
+                  séjour.
+                  Ainsi classez vos visites, s'il pleut nous pourrons faire telle et telle visite. Tandis que visiter ce
+                  Parc animalier ou ce mangifique jardin serait bien plus agréable par beau temps.
+                  Votre séjour n'en sera que plus agréable d'autant plus si vous avez des enfants... </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-success-subtle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#question-two">
+                  Organiser les visites
+                </button>
+              </h2>
+              <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body">Afin de vous assurer une bonne expérience, il est conseillé
+                  de vous rendre sur les sites web des différentes attractions afin de connaitre les heures
+                  d’ouvertures,
+                  les fermetures exceptionnelles, les TARIFS etc… Pour les visites, dans la mesure du possible, prenez
+                  le
+                  temps de réserver les tickets d'entrée sur Internet. <br> Cela vous permettra d'entrer plus rapidement
+                  dans les différents lieux. Car parfois il y a déjà de longues files d'attentes de visiteurs ayant déjà
+                  leurs tickets pour des lieux touristiques prisés (tel que le gouffre de Padirac). De plus, il est de
+                  plus en plus répandu d'obtenir quelques euros de réduction en prenant un bouquet de plusieurs visites
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-primary-subtle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#question-three">
+                  La tenue adaptée
+                </button>
+              </h2>
+              <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body">Comme vous n'allez pas à la plage l'été en doudoune, ou au sky en bikini
+                  léopard. Il faut penser à la tenue et surtout aux chaussures que vous allez porter (ainsi que vos
+                  enfants) pour vos visites, on peut aller visiter un musée en petits talons, mais pas faire la montée
+                  des
+                  marches du gouffre de Padirac en talons aiguilles. De même, attention au promenade, avec des points
+                  d'eau, une chute est vite arrivée. </div>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-success-subtle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#question-four">
+                  Le contenu du sac
+                </button>
+              </h2>
+              <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body">Et oui, il ne faut pas oublier l'essentiel, tout baroudeur a son sac à dos,
+                  et
+                  les promeneurs également, on va y retrouver tout ce qui peut-être nécessaire à une promenade agréable,
+                  (alors oui cela peut ressembler au sac de Mary Poppins ou Dora l'exploratrice mais bon):<br>
+                  <ul>
+                    <li>de l'eau (primordial, d'autant plus s'il fait chaud) </li>
+                    <li>chapeaux / casquettes pour toutes la famille</li>
+                    <li>lunettes de soleil</li>
+                    <li>crème solaire</li>
+                    <li>des mouchoirs</li>
+                    <li>moyen de paiement </li>
+                    <li>des lingettes</li>
+                    <li>médicaments de base</li>
+                    <li>lunettes de soleil</li>
+                  </ul>
+                </div>
+              </div>
+               <!-- Item 5 -->
+               <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-primary-subtle" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-five">
+                        Encore plus de dépaysement </button>
+                </h2>
+                <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">Et pour encore plus de dépaysement, vous pouvez visiter les sites suivants qui vous emmèneront encore plus loin :</div>
+                    <ul class="contact-details bg-light opacity-75">
+                      <li><span>Site de Soumeya </span></li>
+                      <li><span>Site d'Aziza</span></li>
+                     </ul>
+                  </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   </main>
+<!-- fin Accordéan d'astuces et bons plans --> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
