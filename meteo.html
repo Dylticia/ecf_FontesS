@@ -64,11 +64,13 @@
       </section>
       <!-- Fin Titre de la page -->
     <div class="container">
+<!-- premiere colonne contenant le formulaire  -->
         <div class="row justify-content-center">
             <div class="col-12 col-sm-6 my-3">
                 <form>
                     <div class="form-group">
                         <label for="inputCity">Indiquez la ville</label>
+<!-- L'id Input pour pouvoir récupérer le nom de la ville choisie par l'utilisateur -->
                         <input type="text" class="form-control" id="inputCity" placeholder="Indiquez la ville">
                       </div>
                       <button type="submit" class="btn btn-info btn-block" >
@@ -76,6 +78,7 @@
                       </button>
                 </form>
             </div>
+<!-- Une seconde colonne pour afficher nos 4 carrés, nous permettant d'afficher le nom de la ville, la température, l'humidité et le vent -->
             <div class="col-12 col-sm-6 d-flex justify-content-center my-3">
                 <div class="box-container">
                     <div id="city" class="box"></div>

@@ -27,11 +27,7 @@ body::before {
     font-size: 1.5em;
 }
 
-@media(min-width: 768px) {
-    .news-input {
-        width: 50%;
-    }
-}
+
 
 h1, h4, .fw-light, .p-2{
     
@@ -175,6 +171,12 @@ max-height: 150px;
               
 }
 
+#question-five a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 /* PAGE CONTACT */
 #contact_fond {
     background-image: url(./assets/img/hd-wallpaper-6792528_1920.jpg);
@@ -193,3 +195,8 @@ font-size: 1.8em;
 }
 
 
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
