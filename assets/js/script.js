@@ -4,7 +4,8 @@
 let apiCall = function (city) {
     const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=3215414c948b66e7633fdd873312bc11&units=metric';
     
-// On souhaite récupérer les données du fichier JSON pour pouvoir les afficher ensuite sur le DOM
+// la methode fetch permet d'obtenir les données du site. 
+// On souhaite récupérer les données du fichier JSON pour pouvoir les afficher ensuite sur le DOM.
     fetch(url)
         .then((response) =>
             response.json().then((data) => {
